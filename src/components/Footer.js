@@ -43,11 +43,11 @@ const Footer = () => {
       <div className="container mx-auto mt-7 flex justify-center">
         <div className="w-[630px] border-t border-white pt-4 flex justify-center">
           <p className="text-sm space-x-4">
-            <a href="#" className="hover:underline">
+            <a href="/" className="hover:underline">
               Privacy Policy
             </a>
             <span>|</span>
-            <a href="#" className="hover:underline">
+            <a href="/" className="hover:underline">
               Terms & Conditions
             </a>
           </p>

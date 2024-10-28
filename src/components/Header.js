@@ -41,10 +41,10 @@ const Header = () => {
 
         {/* Desktop Navigation Links */}
         <nav className="hidden md:flex space-x-8 text-sm">
-          <a href="#" className="hover:underline">SERVICES</a>
-          <a href="#" className="hover:underline">ABOUT US</a>
-          <a href="#" className="hover:underline">CONTACT US</a>
-          <a href="#" className="hover:underline">CAREERS</a>
+          <a href="/" className="hover:underline">SERVICES</a>
+          <a href="/" className="hover:underline">ABOUT US</a>
+          <a href="/" className="hover:underline">CONTACT US</a>
+          <a href="/" className="hover:underline">CAREERS</a>
         </nav>
       </div>
 
@@ -70,11 +70,11 @@ const Header = () => {
           
           {/* Navigation Links for Mobile Menu */}
           <div className="mt-8 flex flex-col space-y-8 text-lg font-semibold">
-            <a href="#" className="hover:underline">HOME</a>
-            <a href="#" className="hover:underline">SERVICES</a>
-            <a href="#" className="hover:underline">ABOUT US</a>
-            <a href="#" className="hover:underline">CONTACT US</a>
-            <a href="#" className="hover:underline">CAREERS</a>
+            <a href="/" className="hover:underline">HOME</a>
+            <a href="/" className="hover:underline">SERVICES</a>
+            <a href="/" className="hover:underline">ABOUT US</a>
+            <a href="/" className="hover:underline">CONTACT US</a>
+            <a href="/" className="hover:underline">CAREERS</a>
           </div>
         </div>
       )}

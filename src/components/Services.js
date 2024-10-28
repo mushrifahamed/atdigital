@@ -16,7 +16,7 @@ const Services = () => {
               className="w-[275px] h-[275px] mb-4 md:mb-0 md:mr-8" // Responsive styling for the image
             />
             <div className="text-center md:text-left">
-              <h2 className="text-2xl font-bold text-bluish-purple mb-4">
+              <h2 className="text-2xl font-bold text-bluish-purple mb-4 font-poppins">
                 Web & Mobile App Development
               </h2>
               <p className="text-gray-700 mb-4">
@@ -31,7 +31,7 @@ const Services = () => {
           {/* Service 2 Section */}
           <div className="flex flex-col md:flex-row items-center w-full md:w-3/4">
             <div className="order-2 md:order-1 text-center md:text-left md:mr-8 mb-4 md:mb-0">
-              <h2 className="text-2xl font-bold text-bluish-purple mb-4">
+              <h2 className="text-2xl font-bold text-bluish-purple mb-4 font-poppins">
                 Digital Strategy Consulting
               </h2>
               <p className="text-gray-700 mb-4">

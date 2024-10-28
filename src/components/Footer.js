@@ -3,8 +3,8 @@ import logo from '../assets/Logo.png';
 
 const Footer = () => {
   return (
-    <footer className="bg-bluish-purple text-white py-8 h-[266px] flex flex-col justify-between">
-      <div className="container mx-auto flex flex-wrap justify-between items-start px-4 lg:px-8 h-full">
+    <footer className="bg-bluish-purple text-white py-8 flex flex-col justify-between">
+      <div className="container mx-auto flex flex-wrap justify-between items-start px-4 lg:px-8">
         {/* Logo and Description */}
         <div className="w-full md:w-1/3 text-left mb-8 md:mb-0">
           <img
@@ -19,7 +19,7 @@ const Footer = () => {
           </p>
         </div>
         {/* Our Technologies and Services */}
-        <div className="w-full md:w-2/3 flex flex-col md:flex-row justify-between h-full">
+        <div className="w-full md:w-2/3 flex flex-col md:flex-row justify-between">
           <div className="text-left mb-8 md:mb-0 md:ml-auto">
             <h3 className="font-bold mb-4">Our Technologies</h3>
             <ul className="space-y-1">
@@ -57,4 +57,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;  
+export default Footer;
